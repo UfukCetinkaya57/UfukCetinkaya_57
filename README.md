@@ -2,91 +2,43 @@ Hi, I'm Ufuk 👋
 
 .NET Backend Developer — I build systems that run in production.
 
-I work in the ASP.NET Core / C# ecosystem on Clean Architecture, high-performance RESTful APIs, and Docker-based deployment — and I build agentic AI workflows into the development lifecycle. My work has shipped across 3 country markets and to information systems used in 1# Hi, I'm Ufuk 👋
- 
-### .NET Backend Developer — I build systems that run in production.
- 
-I work in the **ASP.NET Core / C#** ecosystem on **Clean Architecture, high-performance RESTful APIs, and Docker-based deployment** — and I build **agentic AI workflows** into the development lifecycle. My work has shipped across **3 country markets** and to information systems used in **140+ municipalities**.
- 
-- 🔭 **Now:** Backend Developer @ [SUNS Tech](https://github.com/sunstech) — production SaaS & APIs
-- 🧠 **Focus:** Clean Architecture · DDD · PostgreSQL/pgvector · Docker · Agentic AI (MCP)
-- 🌐 **Portfolio:** [ufukcetinkaya.dev](https://ufukcetinkaya.dev) *(coming soon)*
-- 📫 **Reach me:** ufukcetinkaya_10@hotmail.com · [LinkedIn]([LINKEDIN_URL])
----
- 
-## 🚀 Featured Work
- 
-**🤖 [backend-governance](https://github.com/UfukCetinkaya57/backend-governance)** — A multi-agent engineering governance framework that turns Claude Code into a structured team (architect · backend · QA · quality-gate · DevOps · security-reviewer). My active R&D on agentic AI + MCP.
- 
-**🧠 Menti Mentör** — AI semantic mentor–matching SaaS. .NET 10, Clean Architecture + DDD, `pgvector` (HNSW) + Cloudflare Workers AI embeddings, race-condition-safe bookings (`SELECT FOR UPDATE`), AWS EC2 + GitHub Actions CI/CD. → **[Live](https://ankongenclik.com)**
- 
-**📈 Sales Growth Steps** — International SaaS with a from-scratch scoring + feedback task-recommendation engine. .NET + Firebase, 5-language content, live in Poland / Bulgaria / Ukraine. → **[Live](https://salesgrowthsteps.com)**
- 
-**✈️ TrendwayTravel** — Multi-market tour & hotel booking platform. ASP.NET Core MVC + BFF, SOAP integration layer, shareable filter links via URL sync. → **[Live](https://www.trendwaytravel.pl)**
- 
----
- 
-## 🛠️ Tech Stack
- 
-**Backend** — ASP.NET Core · C# · RESTful API · Clean Architecture · DDD · CQRS
-**Data** — MSSQL · PostgreSQL (pgvector) · Oracle · MongoDB · Redis · Entity Framework
-**Infra & DevOps** — Docker · Nginx · CI/CD (GitHub Actions) · AWS EC2 · IIS
-**Messaging & Auth** — RabbitMQ · Apache Kafka · JWT · Active Directory
-**AI** — Agentic Workflows · LLM Integration · MCP · Embeddings / Vector Search
- 
----
- 
-## 📊 GitHub Stats
- 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=UfukCetinkaya57&show_icons=true&hide_border=true&theme=tokyonight" alt="Ufuk's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UfukCetinkaya57&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
-</p>
-<img src="https://streak-stats.demolab.com?user=UfukCetinkaya57&hide_border=true&theme=tokyonight" alt="GitHub streak" />
-<!--
-  NOT: Data Science rozetlerini (TensorFlow, scikit-learn, pandas...) bilerek çıkardım.
-  Hedef backend + AI-engineering (agentic) işleri; dağınık DS listesi bu net hikâyeyi zayıflatıyor.
-  ML rollerini de hedefliyorsan ayrı küçük bir "Also exploring" satırı ekleriz.
--->
-40+ municipalities.
+I work in the ASP.NET Core / C# ecosystem on Clean Architecture, high-performance RESTful APIs and Docker-based deployment — and I build RAG & agentic AI systems on top of that foundation. My work has shipped to SaaS platforms serving 3 country markets and to information systems used in 140+ municipalities with millions of records.
 
 
 🔭 Now: Backend Developer @ SUNS Tech — production SaaS & APIs
-🧠 Focus: Clean Architecture · DDD · PostgreSQL/pgvector · Docker · Agentic AI (MCP)
-🌐 Portfolio: ufukcetinkaya.dev (coming soon)
+🧠 Focus: Clean Architecture · PostgreSQL/pgvector · Docker · RAG · Agentic AI (Semantic Kernel, MCP)
 📫 Reach me: ufukcetinkaya_10@hotmail.com · LinkedIn
 
 
 
 🚀 Featured Work
 
-🤖 backend-governance — A multi-agent engineering governance framework that turns Claude Code into a structured team (architect · backend · QA · quality-gate · DevOps · security-reviewer). My active R&D on agentic AI + MCP.
+🧠 enterprise-rag-dotnet — Agentic RAG system in .NET. PDF → chunking → embeddings → pgvector (HNSW) retrieval → LLM reranking → answer, with a Semantic Kernel faithfulness checker and generator-critic reflection loop. Provider-agnostic (OpenAI ↔ Azure OpenAI ↔ on-prem Ollama), with a rule-based prompt-injection guard.
 
-🧠 Menti Mentör — AI semantic mentor–matching SaaS. .NET 10, Clean Architecture + DDD, pgvector (HNSW) + Cloudflare Workers AI embeddings, race-condition-safe bookings (SELECT FOR UPDATE), AWS EC2 + GitHub Actions CI/CD. → Live
+🤖 backend-governance — Multi-agent engineering governance framework (MIT) that turns Claude Code into a structured team: 6 agents · 13 rules · risk-tiered review pipeline. Least-privilege enforced at tool level — reviewers can't write code. Deterministic pre-commit hook blocks secrets.
 
-📈 Sales Growth Steps — International SaaS with a from-scratch scoring + feedback task-recommendation engine. .NET + Firebase, 5-language content, live in Poland / Bulgaria / Ukraine. → Live
+🎓 Menti Mentör — AI-assisted mentor–mentee matching SaaS. .NET 10, Clean/Layered Architecture, 46 ADRs, pgvector (HNSW) + Cloudflare Workers AI embeddings hybrid matching, atomic conditional UPDATE for race-free booking, Argon2id + JWT, Docker + GitHub Actions CI/CD (staging auto / prod approved). → Live
 
-✈️ TrendwayTravel — Multi-market tour & hotel booking platform. ASP.NET Core MVC + BFF, SOAP integration layer, shareable filter links via URL sync. → Live
+📦 Anı Kutusu — Event media-sharing platform backend. .NET 9, Clean Architecture, presigned-URL direct upload to Cloudflare R2 (2 GB), IDOR-safe completion tokens, 3-layer rate limiting behind Cloudflare/Nginx, refresh-token rotation with reuse detection. → Live
+
+📈 Sales Growth Steps — International SaaS (Poland / Bulgaria / Ukraine). .NET 8 Minimal API with a zero-dependency, pure-function domain scoring engine; Firebase Auth via JWKS with IDOR protection; config-driven multi-industry setup. → Live
+
+🧩 MicroserviceArchitectureProject — Microservices reference architecture: Ocelot API Gateway, RabbitMQ + MassTransit event-driven messaging, IdentityServer, Polly resilience, database-per-service (SQL Server / MongoDB / PostgreSQL / Redis), fully dockerized.
 
 
 🛠️ Tech Stack
 
-Backend — ASP.NET Core · C# · RESTful API · Clean Architecture · DDD · CQRS
-Data — MSSQL · PostgreSQL (pgvector) · Oracle · MongoDB · Redis · Entity Framework
-Infra & DevOps — Docker · Nginx · CI/CD (GitHub Actions) · AWS EC2 · IIS
-Messaging & Auth — RabbitMQ · Apache Kafka · JWT · Active Directory
-AI — Agentic Workflows · LLM Integration · MCP · Embeddings / Vector Search
+Backend — C# · ASP.NET Core · .NET 8/9/10 · RESTful API · Entity Framework Core · Clean Architecture · SOLID
+Data — Microsoft SQL Server · T-SQL · PostgreSQL (pgvector) · MySQL · Oracle · Redis
+AI — RAG · Semantic Kernel · LLM integration · Embeddings / Vector Search · Agentic workflows · MCP
+Infra & DevOps — Docker · Nginx · GitHub Actions (CI/CD) · AWS EC2 · Linux · IIS
+Messaging & Auth — RabbitMQ · Apache Kafka · JWT · OAuth 2.0 · Argon2id
+Testing — xUnit · Moq · FluentAssertions · Testcontainers · k6
 
 
 📊 GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=UfukCetinkaya57&show_icons=true&hide_border=true&theme=tokyonight" alt="Ufuk's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=UfukCetinkaya57&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UfukCetinkaya57&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
 </p>
-<img src="https://streak-stats.demolab.com?user=UfukCetinkaya57&hide_border=true&theme=tokyonight" alt="GitHub streak" />
-<!--
-  NOT: Data Science rozetlerini (TensorFlow, scikit-learn, pandas...) bilerek çıkardım.
-  Hedef backend + AI-engineering (agentic) işleri; dağınık DS listesi bu net hikâyeyi zayıflatıyor.
-  ML rollerini de hedefliyorsan ayrı küçük bir "Also exploring" satırı ekleriz.
--->
