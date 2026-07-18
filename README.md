@@ -34,11 +34,3 @@ AI — RAG · Semantic Kernel · LLM integration · Embeddings / Vector Search �
 Infra & DevOps — Docker · Nginx · GitHub Actions (CI/CD) · AWS EC2 · Linux · IIS
 Messaging & Auth — RabbitMQ · Apache Kafka · JWT · OAuth 2.0 · Argon2id
 Testing — xUnit · Moq · FluentAssertions · Testcontainers · k6
-
-
-📊 GitHub Stats
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=UfukCetinkaya57&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UfukCetinkaya57&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
-</p>
